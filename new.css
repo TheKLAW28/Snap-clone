@@ -1,0 +1,110 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+[class="container"] {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+    height: 100%;
+    min-height: 100vh;
+}
+
+.top_row{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 60px;
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 7px;
+}
+
+button {
+    margin-right: 30px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(101, 130, 255);
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.sample_text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+.main{
+    margin-top: 25px;
+    width: 90%;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+}
+
+.card {
+    height: 50%;
+    width: 33%;
+    margin: 0;
+}
+
+
+.bg-white {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_contents h3, .card_contents h5,.card_contents p, .card_contents h4 {
+    margin-left: 35px;
+}
+
+.card_contents h4 {
+    border-bottom: 2px solid white;
+    width: 100px;
+    padding-bottom: 2px;
+    font-weight: 500;    
+}
+
+.bg_aqua {
+    background-color: rgb(122, 208, 208);
+}
+
+.bg_gold {
+    background-color: rgb(238, 203, 5);
+}
+
+.bg_purple {
+    background-color: rgb(101, 130, 255);
+}
+
+img {
+    width: 70px;
+    color: white;
+    object-fit: contain;
+}
